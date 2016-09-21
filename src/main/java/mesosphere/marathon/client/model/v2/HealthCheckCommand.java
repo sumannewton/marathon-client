@@ -2,9 +2,6 @@ package mesosphere.marathon.client.model.v2;
 
 import mesosphere.marathon.client.utils.ModelUtils;
 
-/**
- * Created by suman.bn on 21/09/16.
- */
 public class HealthCheckCommand {
 
     private String value;
