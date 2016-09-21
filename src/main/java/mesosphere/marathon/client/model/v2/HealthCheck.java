@@ -5,7 +5,7 @@ import mesosphere.marathon.client.utils.ModelUtils;
 import java.util.Collection;
 
 public class HealthCheck {
-	private String command;
+	private HealthCheckCommand command;
 	private Integer gracePeriodSeconds;
 	private Integer intervalSeconds;
 	private Integer maxConsecutiveFailures;
@@ -79,11 +79,11 @@ public class HealthCheck {
 		this.protocol = protocol;
 	}
 
-	public String getCommand() {
+	public HealthCheckCommand getCommand() {
 		return command;
 	}
 
-	public void setCommand(String command) {
+	public void setCommand(HealthCheckCommand command) {
 		this.command = command;
 	}
 
